@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 46" width="180" height="46" role="img" aria-label="Aquatec Logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a1795a"/>
+      <stop offset="1" stop-color="#7d5a41"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="46" rx="12" fill="#efe6da"/>
+  <path d="M28 30c8-10 24-10 32 0" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <text x="90" y="29" text-anchor="middle" font-size="18" font-family="Inter, Segoe UI, Arial, sans-serif" fill="#7d5a41" font-weight="700">Aquatec</text>
+</svg>
