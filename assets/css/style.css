@@ -991,6 +991,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   margin: 0 0 var(--spacing-lg) var(--spacing-2xl);
   position: relative;
   max-width: 300px;
+    z-index: 5;
 }
 
 .floating-image img {
