@@ -118,6 +118,7 @@ img {
   height: 40px;
   width: auto;
   display: block;
+    border-radius: 8px;
 }
 
 /* Mobile menu header logo */
@@ -2218,6 +2219,13 @@ a:hover {
   }
 }
 
+/* Desktop: min-width 1440px – keep three slides visible on very wide screens */
+@media (min-width: 1440px) {
+  .slide {
+    width: calc(33.333% - 10.667px);
+  }
+}
+
 /* Large mobile/small tablet: max-width: 1199px */
 @media (max-width: 1199px) {
   .grid-3 {
@@ -2227,6 +2235,14 @@ a:hover {
   
   .slide {
     width: calc(50% - 8px);
+  }
+}
+
+/* Extra small screens: max-width 559px – always show a single slide
+   (placed after 1199px query so it overrides the 50% width) */
+@media (max-width: 559px) {
+  .slide {
+    width: 100%;
   }
 }
 
